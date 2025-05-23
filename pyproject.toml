@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "dask>=2025.5.1",
     "ipykernel>=6.29.5",
+    "netcdf4>=1.7.2",
     "polars>=1.30.0",
     "pygbif>=0.6.5",
     "pyinaturalist>=0.20.1",
