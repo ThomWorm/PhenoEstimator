@@ -1,0 +1,16 @@
+[project]
+name = "PhenoEstimator"
+version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "polars>=1.30.0",
+    "pygbif>=0.6.5",
+    "pyinaturalist>=0.20.1",
+    "pymc>=5.22.0",
+    "xarray>=2025.4.0",
+]
+[tool.ruff]
+exclude = ["archive", "docs", "tests", "*.ipynb"]
